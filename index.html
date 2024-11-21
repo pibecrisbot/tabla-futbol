@@ -1,7 +1,5 @@
 <!DOCTYPE html>
-<img src="logoTrigales.png" alt="Escuela Trigales" class="logo">
 <html lang="es">
-  <img src="logoTrigales.png" alt="Escuela Trigales" class="logo">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -112,6 +110,8 @@
       height: 180px;
       border-radius: 50%;
       object-fit: cover;
+      display: block;
+      margin: 20px auto;
     }
 
     /* Responsividad */
@@ -128,56 +128,58 @@
   </style>
 </head>
 <body>
-<div class="table-container">
-  <h2>Tabla de Posiciones</h2>
-  <table>
-    <thead>
-      <tr>
-        <th>#</th>
-        <th>Equipo</th>
-        <th>PJ</th>
-        <th>PG</th>
-        <th>PE</th>
-        <th>PP</th>
-        <th>GF</th>
-        <th>GC</th>
-        <th>GD</th>
-        <th>Pts</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td class="highlight">1</td>
-        <td class="team-name">
-          <span class="team-icon">A</span> Equipo A
-        </td>
-        <td>20</td>
-        <td>15</td>
-        <td>3</td>
-        <td>2</td>
-        <td>45</td>
-        <td>45</td>
-        <td>00</td>
-        <td class="highlight">48</td>
-      </tr>
-      <tr>
-        <td>2</td>
-        <td class="team-name">
-          <span class="team-icon">B</span> Equipo B
-        </td>
-        <td>20</td>
-        <td>13</td>
-        <td>4</td>
-        <td>3</td>
-        <td>40</td>
-        <td>25</td>
-        <td>+15</td>
-        <td>43</td>
-      </tr>
-      <!-- Agrega más equipos aquí -->
-    </tbody>
-  </table>
-</div>
+  <!-- Agregar logo al centro -->
+  <img src="logoTrigales.png" alt="Escuela Trigales" class="logo">
 
+  <div class="table-container">
+    <h2>Tabla de Posiciones</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Equipo</th>
+          <th>PJ</th>
+          <th>PG</th>
+          <th>PE</th>
+          <th>PP</th>
+          <th>GF</th>
+          <th>GC</th>
+          <th>GD</th>
+          <th>Pts</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="highlight">1</td>
+          <td class="team-name">
+            <span class="team-icon">A</span> Equipo A
+          </td>
+          <td>20</td>
+          <td>15</td>
+          <td>3</td>
+          <td>2</td>
+          <td>45</td>
+          <td>45</td>
+          <td>0</td>
+          <td class="highlight">48</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td class="team-name">
+            <span class="team-icon">B</span> Equipo B
+          </td>
+          <td>20</td>
+          <td>13</td>
+          <td>4</td>
+          <td>3</td>
+          <td>40</td>
+          <td>25</td>
+          <td>+15</td>
+          <td>43</td>
+        </tr>
+        <!-- Agrega más equipos aquí -->
+      </tbody>
+    </table>
+  </div>
 </body>
 </html>
